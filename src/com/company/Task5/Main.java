@@ -8,6 +8,7 @@ public class Main {
         System.out.println("Введите число : ");
         String number = sc.nextLine();
         int num = Integer.parseInt(number);
+        System.out.println(num + " умножение на 1");
         System.out.println(num * 2 + " умножение на 2");
         System.out.println(num * 3 + " умножение на 3");
         System.out.println(num * 4 + " умножение на 4");
