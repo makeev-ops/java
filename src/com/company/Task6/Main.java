@@ -2,13 +2,13 @@ package com.company.Task6;
 import java.util.Scanner;
     public class Main {
         public static void main(String[] args) {
-            Scanner sc = new Scanner(System.in);
+            Scanner scan = new Scanner(System.in);
             System.out.println("Введите число x: ");
-            double x = sc.nextDouble();
+            double x = scan.nextDouble();
             System.out.println("Введите число y: ");
-            double y = sc.nextDouble();
+            double y = scan.nextDouble();
             System.out.println("Введите число z: ");
-            double z = sc.nextDouble();
+            double z = scan.nextDouble();
             double average = (x + y + z) / 3;
             System.out.println("Среднее арифметическое чисел x,y,z: " + average);
             int division = (int) (average / 2);
