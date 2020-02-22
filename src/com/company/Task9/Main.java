@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         int[] mas = massiv();
         System.out.print("Вывод элементов массива, умноженного на 2:\n");
-        dopka(mas);
+        cet(mas);
     }
     public static int[] massiv() {
         Scanner ball = new Scanner(System.in);
@@ -17,7 +17,7 @@ public class Main {
         }
         return corner;
     }
-    private static void dopka (int[] massiv_1)
+    private static void cet (int[] massiv_1)
     {
         for (int i = 0; i < massiv_1.length; i++)
         {
