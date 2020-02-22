@@ -28,7 +28,7 @@ public class Main {
     {
         for (int i = 0; i < massiv_1[0].length; i++)
         {
-            System.out.print("[0][" + i + "] = "+massiv_1 [0][i]*3+"\n");
+            System.out.print("[0][" + i + "] = " + massiv_1 [0][i] * 3 + "\n");
         }
     }
 }
