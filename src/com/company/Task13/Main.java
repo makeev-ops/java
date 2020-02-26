@@ -12,16 +12,12 @@ public class Main {
         {
             System.out.println("Введенные строки равны по длине");
         }
-        else
-        {
-            if (rez.length() > rez_1.length())
-            {
-                System.out.println("Строка с наибольшей длиной: "+ rez);
+        else if (rez.length() > rez_1.length()) {
+                System.out.println("Строка с наибольшей длиной: " + rez);
             }
-            else
+        else
             {
-                System.out.println("Строка с наибольшей длиной: "+ rez_1);
+                System.out.println("Строка с наибольшей длиной: " + rez_1);
             }
         }
     }
-}
