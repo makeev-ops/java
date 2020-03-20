@@ -48,9 +48,9 @@ public class Main
             }
         }
         System.out.println();
-        for (int k=0; k<A.length; k++)
+        for (int k = 0; k < A.length; k++)
         {
-            System.out.print(A[k]+"   ");
+            System.out.print(A[k] + "   ");
         }
 
     }
