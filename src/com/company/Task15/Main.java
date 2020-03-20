@@ -31,19 +31,19 @@ public class Main
     }
     private static void sort_mas(double A[])
     {
-        for (int i=0; i<A.length; i++)
+        for (int i = 0; i < A.length; i++)
         {
-            System.out.print(A[i]+" ");
+            System.out.print(A[i] + " ");
         }
-        for (int x=0; x<A.length-1; x++)
+        for (int x = 0; x < A.length - 1; x++)
         {
-            for (int y=0; y<A.length-1; y++)
+            for (int y = 0; y < A.length - 1; y++)
             {
-                if (A[y]>A[y+1])
+                if (A[y] > A[y + 1])
                 {
                     double S = A [y];
-                    A[y] = A[y+1];
-                    A[y+1] = S;
+                    A[y] = A[y + 1];
+                    A[y + 1] = S;
                 }
             }
         }
